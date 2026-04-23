@@ -74,4 +74,4 @@ def create_json_entry(doc_id, text):
     return entry
 # รัน code
 sample_entry = create_json_entry(1,"ละเมิดสิทธิบัตรการประดิษฐ์")
-print(json.dumps(sample_entry, indent=4, ensure_ascii=False=))    
+print(json.dumps(sample_entry, indent=4, ensure_ascii=False))    
