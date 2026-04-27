@@ -1,5 +1,4 @@
-# การตัดคำ tokenization = custom_Dict
-
+# การตัดคำ Tokenization + custom_Dict
 import re
 from pythainlp.tokenize import word_tokenize
 LEGAL_KEYWORDS = ["ละเมิดสิทธิบัตร","เครื่องหมายการค้า","ลิขสิทธิ์","การกระทำความผิด"]
