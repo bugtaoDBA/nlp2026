@@ -1,5 +1,5 @@
 import random
-#test biy std 03
+
 LEGAL_SYNONYMS = {    
 "ละเมิด":["ฝ่าผืน","กระทำผิด","ล่วงสิทธิ์"],
 "จำหน่าย":["ขาย","เผยแพร่","กระจายสินค้า"],
@@ -70,4 +70,5 @@ sample_input = torch.randn(1,5,16)
 output = model(sample_input)
 print(f"--BiLSTM Output--")
 print(f"Logics: (output.detach().numply())")
+#
     
